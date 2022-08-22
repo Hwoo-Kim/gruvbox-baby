@@ -29,9 +29,14 @@ return {
     b = { bg = c.background, fg = c.soft_green },
     c = { bg = c.background, fg = c.milk },
   },
-  inactive = {
-    a = { bg = c.dark_gray, fg = c.gray, gui = "bold" },
-    b = { bg = c.dark_gray, fg = c.gray },
-    c = { bg = c.dark_gray, fg = c.gray },
+    inactive = {
+    a = { bg = c.light_blue, fg = c.dark, gui = "bold" },
+    b = { bg = c.background, fg = c.light_blue },
+    c = { bg = c.background, fg = c.milk },
   },
+  --inactive = {
+  --  a = { bg = c.dark_gray, fg = c.gray, gui = "bold" },
+  --  b = { bg = c.dark_gray, fg = c.gray },
+  --  c = { bg = c.dark_gray, fg = c.gray },
+  --},
 }
